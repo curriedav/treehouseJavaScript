@@ -47,9 +47,12 @@ var m = parseFloat("123.456");
 
 var u = Math.floor(Math.random() * 10);
 
-//Math.round
-//Math.ceil
+//Math.round()
+//Math.ceil()
 
 var y = Math.pow(2, 5);
+var z = Math.sqrt(4);
+
+
 
 
