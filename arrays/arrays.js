@@ -53,8 +53,8 @@ var value = my_array.shift();
 console.log(my_array.toString());
 */
 
-my_array = [10, 44, 32, 100, 0, 44, 3, 4];
-console.log(my_array.toString());
+// my_array = [10, 44, 32, 100, 0, 44, 3, 4];
+// console.log(my_array.toString());
 /*
 //default sort sorts #s as strings.
 my_array.sort();
@@ -92,6 +92,7 @@ console.log(y);
 console.log(z);
 */
 
+/*
 var my_array = [0, 1, 2, 3, 4, 5];
 
 var result = my_array.slice(1, 5);
@@ -104,15 +105,18 @@ console.log(sentence);
 
 sentence_array = sentence.split(' ');
 console.log(sentence_array);
+*/
+
+//Splice
+
+my_array = [0, 1, 2, 3, 4, 5, 6];
+
+console.log(my_array.toString());
+
+my_array.splice(2, 1, "two");
 
 
-
-
-
-
-
-
-
+console.log(my_array.toString());
 
 
 
